@@ -57,6 +57,15 @@ module.exports = {
     // http://eslint.org/docs/rules/prefer-template
     'prefer-template': 2,
     // disallow generator functions that do not have yield
-    'require-yield': 0
+    'require-yield': 0,
+    // boffins
+    "func-names": 0,
+    "no-shadow": 0,
+    "no-console": 0,
+    "no-use-before-define": [2, "nofunc"],
+    "semi": [2, "never"],
+    "new-cap": [2, {"capIsNew": false, "newIsCap": true}],
+    "id-length": 0,
+    "no-unused-vars": 0,
   }
 };
